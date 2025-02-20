@@ -2,7 +2,7 @@
 
 import { FC } from "react";
 import { usePathname } from "next/navigation";
-import styles from "@/_styles/Error.module.css"
+import styles from "@/_styles/error.module.css";
 
 const NotFound: FC = () => {
   const pathname: string = usePathname();

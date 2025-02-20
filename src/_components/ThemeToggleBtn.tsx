@@ -2,7 +2,7 @@
 
 import { FC } from "react";
 import { useTheme } from "@/_contexts/ThemeContext";
-import styles from "@/_styles/ThemeToggleBtn.module.css";
+import styles from "@/_styles/themeToggleBtn.module.css";
 
 const ThemeToggle: FC = () => {
   const { theme, toggleTheme } = useTheme();

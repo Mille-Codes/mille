@@ -2,9 +2,9 @@ import { FC } from 'react';
 
 const Payment: FC = () => {
   return (
-    <div>
+    <main>
       <h1>Payment</h1>
-    </div>
+    </main>
   );
 };
 

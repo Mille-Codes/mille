@@ -1,3 +1,25 @@
+:root {
+    --bg-color: #ffffff;
+    --bg-color-header: #000000;
+    --bg-color-footer: #000000;
+    --bg-color-theme-toggle-btn: #ffffff;
+    --text-color: #000000;
+    --text-color-header: #ffffff;
+    --text-color-footer: #ffffff;
+    --text-color-theme-toggle-btn: #000000;
+}
+
+[data-theme="dark"] {
+    --bg-color: #121212;
+    --bg-color-header: #ffffff;
+    --bg-color-footer: #ffffff;
+    --bg-color-theme-toggle-btn: #000000;
+    --text-color: #ffffff;
+    --text-color-header: #000000;
+    --text-color-footer: #000000;
+    --text-color-theme-toggle-btn: #ffffff;
+} 
+
 * {
     margin: 0;
     padding: 0;
@@ -22,6 +44,16 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     line-height: 1.6;
-    text-align: center;
-    background-color: #fdfdf7;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
 }

@@ -1,5 +1,16 @@
 .header {
-    background-color: #333;
-    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    background-color: var(--bg-color-header);
+    color: var(--text-color-header);
     padding: 2rem;
+}
+
+.navbar, .navbar ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

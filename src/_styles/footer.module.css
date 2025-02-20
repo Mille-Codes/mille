@@ -1,6 +1,6 @@
 .footer {
-    background-color: #333;
-    color: #fff;
+    background-color: var(--bg-color-footer);
+    color: var(--text-color-footer);
     padding-block: 2rem;
     width: 100%;
 }

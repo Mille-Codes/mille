@@ -2,9 +2,9 @@ import { FC } from "react";
 
 const Products: FC = () => {
   return (
-    <div>
+    <main>
       <h1>Products</h1>
-    </div>
+    </main>
   );
 };
 

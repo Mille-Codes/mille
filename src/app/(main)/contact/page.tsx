@@ -2,9 +2,9 @@ import { FC } from "react";
 
 const Contact: FC = () => {
   return (
-    <div>
+    <main>
       <h1>Contact</h1>
-    </div>
+    </main>
   );
 };
 

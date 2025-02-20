@@ -2,9 +2,9 @@ import { FC } from "react";
 
 const Home: FC = () => {
   return (
-    <div>
+    <main>
       <h1>Home</h1>
-    </div>
+    </main>
   );
 };
 

@@ -2,9 +2,9 @@ import { FC } from "react";
 
 const About: FC = () => {
   return (
-    <div>
+    <main>
       <h1>About</h1>
-    </div>
+    </main>
   );
 };
 

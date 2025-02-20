@@ -2,9 +2,9 @@ import { FC } from 'react';
 
 const Articles: FC = () => {
   return (
-    <div>
+    <main>
       <h1>Articles</h1>
-    </div>
+    </main>
   );
 };
 

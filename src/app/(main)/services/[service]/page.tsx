@@ -2,9 +2,9 @@ import { FC } from "react";
 
 const Service: FC = () => {
   return (
-    <div>
+    <main>
       <h1>Service</h1>
-    </div>
+    </main>
   );
 };
 

@@ -1,10 +1,13 @@
 import { FC } from 'react';
-import style from '@/_styles/header.module.css';
+import Navbar from './Navbar';
+import ThemeToggle from './ThemeToggleBtn';
+import styles from '@/_styles/Header.module.css';
 
 const Header: FC = () => {
   return (
-    <header className={style.header}>
-      <h1>Header</h1>
+    <header className={styles.header}>
+      <Navbar />
+      <ThemeToggle />
     </header>
   );
 };

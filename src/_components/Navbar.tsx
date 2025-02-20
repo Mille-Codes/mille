@@ -1,10 +1,34 @@
 import { FC } from 'react';
+import Link from 'next/link';
+import styles from "@/_styles/Header.module.css"
 
 const Navbar: FC = () => {
   return (
-    <div>
-      <h1>Navbar</h1>
-    </div>
+    <nav className={styles.navbar}>
+      <ul>
+        <li>
+          <Link href="/">Home</Link>
+        </li>
+        <li>
+          <Link href="/about">About</Link>
+        </li>
+        <li>
+          <Link href="/contact">Contact</Link>
+        </li>
+        <li>
+          <Link href="/services">Services</Link>
+        </li>
+        <li>
+          <Link href="/projects">Projects</Link>
+        </li>
+        <li>
+          <Link href="/articles">Articles</Link>
+        </li>
+        <li>
+          <Link href="/cart">Cart</Link>
+        </li>
+      </ul>
+    </nav>
   );
 };
 

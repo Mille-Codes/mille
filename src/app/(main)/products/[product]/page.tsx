@@ -1,7 +1,11 @@
-export default function Product() {
+import { FC } from "react";
+
+const Product: FC = () => {
   return (
     <div>
       <h1>Product</h1>
     </div>
   );
-}
+};
+
+export default Product;

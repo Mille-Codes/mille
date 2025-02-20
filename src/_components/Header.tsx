@@ -1,7 +1,12 @@
-export default function Header() {
+import { FC } from 'react';
+import style from '@/_styles/header.module.css';
+
+const Header: FC = () => {
   return (
-    <div>
+    <header className={style.header}>
       <h1>Header</h1>
-    </div>
+    </header>
   );
-}
+};
+
+export default Header;
